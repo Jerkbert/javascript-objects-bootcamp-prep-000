@@ -1,4 +1,6 @@
-var playlist = new Object({SmashingPumpkins: 'Tonight, Tonight'});
+var playlist = new Object({Blur: 'Boys and Girls'});
+
+playlist['Smashing Pumpkins'] = 'Tonight, Tonight';
 
 function updatePlaylist(playlist,artistName,songTitle){
   playlist[artistName]=songTitle
